@@ -1,0 +1,515 @@
+/* ================= GENERAL ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: white;
+}
+
+/* Use border-box sizing for predictable layouts */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Make images responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 35px;
+    color: #222;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    border: 1px solid black;
+    border-radius: 78px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+    margin: 25px 5%;
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0e0d0d;
+    margin-left: 52px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    margin-right: 80px;
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================= HOME ================= */
+
+.home {
+    padding: 40px 10%;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* LEFT SIDE */
+
+.home-text {
+    width: 60%;
+}
+
+.home-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.home-text h1 {
+    font-size: 5.5rem;
+    margin: -10px 0 10px;
+}
+
+.home-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 1.1rem;
+    width: 500px;
+    max-width: 100%;
+    line-height: 1.6;
+}
+
+
+/* IMAGE - RIGHT */
+
+.home-image {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-image img {
+    width: 280px;
+    height: 280px;
+    max-width: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 2px solid black;
+    display: block;
+}
+
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.buttons a {
+    color: black;
+    text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 8px;
+
+    padding: 10px 20px;
+
+    font-size: 1rem;
+}
+
+.buttons a:hover {
+    background: black;
+    color: white;
+}
+
+
+/* ================= ABOUT ================= */
+
+#about {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+
+/* ================= EDUCATION ================= */
+
+#education {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.education-card {
+    width: 650px;
+    max-width: 100%;
+
+    margin: 20px auto;
+    padding: 22px 30px;
+
+    border: 1px solid black;
+    border-radius: 12px;
+
+    text-align: left;
+    background: white;
+}
+
+.education-card:hover {
+    background: #f5f5f5;
+}
+
+.education-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.education-card h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.education-card p {
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+
+/* ================= SKILLS ================= */
+
+#skills {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    width: 250px;
+    padding: 22px;
+
+    border: 1px solid black;
+    border-radius: 12px;
+
+    text-align: left;
+    background: white;
+}
+
+.skill-card:hover {
+    background: #f5f5f5;
+}
+
+.skill-card h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.skill-card ul {
+    padding-left: 20px;
+}
+
+.skill-card li {
+    margin-bottom: 7px;
+}
+
+
+/* ================= PROJECTS ================= */
+
+#projects {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    width: 300px;
+    padding: 22px;
+
+    border: 1px solid black;
+    border-radius: 12px;
+
+    text-align: left;
+    background: white;
+}
+
+.project-card:hover {
+    background: #f5f5f5;
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.project-card h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* ================= CONTACT ================= */
+
+#contact {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+#contact a {
+    display: inline-block;
+
+    color: black;
+    text-decoration: none;
+
+    font-size: 1.1rem;
+
+    margin: 5px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    padding: 20px;
+    text-align: center;
+
+    border-top: 1px solid black;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        margin: 20px 30px;
+    }
+
+    .logo {
+        margin-left: 25px;
+        font-size: 1.8rem;
+    }
+
+    nav {
+        gap: 1rem;
+        margin-right: 25px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .home-text h1 {
+        font-size: 4rem;
+    }
+
+    .home-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-image img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    section {
+        padding: 50px 6%;
+    }
+
+
+    /* NAVBAR */
+
+    .navbar {
+        margin: 15px;
+        padding: 15px;
+
+        flex-direction: column;
+        gap: 15px;
+
+        border-radius: 20px;
+    }
+
+    .logo {
+        margin-left: 0;
+        font-size: 1.6rem;
+    }
+
+    nav {
+        margin-right: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px 15px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+
+    /* HOME */
+
+    .home {
+        padding: 50px 6%;
+    }
+
+    .home-content {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home-text {
+        width: 100%;
+    }
+
+    .home-text h1 {
+        font-size: 3rem;
+    }
+
+    .home-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .home-text p {
+        width: 100%;
+    }
+
+    .home-image {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .home-image img {
+        width: 210px;
+        height: 210px;
+    }
+
+
+    /* BUTTONS */
+
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* HEADING */
+
+    .heading {
+        font-size: 2.3rem;
+    }
+
+
+    /* EDUCATION */
+
+    .education-card {
+        padding: 20px;
+    }
+
+
+    /* SKILLS */
+
+    .skill-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+    /* PROJECTS */
+
+    .project-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}

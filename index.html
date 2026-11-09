@@ -3,435 +3,282 @@
 <head>
     
     <title>Hardik Gupta | Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
+    <header class="site-header">
+        <div class="navbar">
+            <a class="logo" href="#home" aria-label="Hardik Gupta home">HG<span>.</span></a>
+            <nav aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
 
-<!-- ================= NAVBAR ================= -->
-
-<header>
-<div class="navbar">
-    <h2 class="logo">Portfolio Website</h2>
-
-    <nav>
-
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-
-    </nav>
-</div>
-</header>
-
-<!-- ================= HOME ================= -->
-
-<section id="home" class="home">
-
-
-    <div class="home-content">
-
-        <!-- LEFT SIDE: TEXT -->
-        <div class="home-text">
-
-            <h3>Hello, I'm</h3>
-
-            <h1>Hardik Gupta</h1>
-
-            <h2>Software Developer | Python Developer | AI/ML Enthusiast</h2>
-
-            <p>
-                Motivated MCA student at Pondicherry University with strong
-                knowledge of Python, DSA, Web Development and AI/ML.
-                Passionate about building secure and scalable software solutions.
-            </p>
-
-            <div class="buttons">
-                <a href="resume/hardikresume.pdf" target="_blank">Resume</a>
-                <a href="https://github.com/HardikO7" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/hardik-gupta-702b70312" target="_blank">LinkedIn</a>
+    <main>
+        <section id="home" class="hero section-wrap">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> MCA Student · Developer in progress</p>
+                <h1>Hi, I'm <span>Hardik Gupta.</span></h1>
+                <h2>I build thoughtful solutions with code.</h2>
+                <p class="hero-description">
+                    I'm an MCA student at Pondicherry University, interested in software development,
+                    Python, data and artificial intelligence. I enjoy turning ideas into useful,
+                    practical projects.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                    <a class="button button-light" href="resume/hardikresume.pdf" target="_blank" rel="noopener">View resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/HardikO7" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+                    <a href="https://www.linkedin.com/in/hardik-gupta-702b70312" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+                    <a href="mailto:ghardik880@gmail.com">Email <span>↗</span></a>
+                </div>
             </div>
-
-        </div>
-
-
-        <!-- RIGHT SIDE: IMAGE -->
-        <div class="home-image">
-            <img src="image/profile.jpg" alt="Hardik Gupta">
-        </div>
-
-    </div>
-
-
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about">
-
-    <h2 class="heading">About Me</h2>
-
-    <div class="about-container">
-
-        <p>
-
-            I am currently pursuing my Master of Computer Applications (MCA)
-            at Pondicherry University (2025-2027).
-
-            I enjoy solving real-world problems using Python and modern web
-            technologies. My interests include Artificial Intelligence,
-            Machine Learning, Data Structures & Algorithms,
-            Full Stack Development and Database Systems.
-
-            I am continuously improving my programming skills and building
-            projects that solve practical problems.
-
-        </p>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================= EDUCATION ================= -->
-
-<section id="education">
-
-    <h2 class="heading">Education</h2>
-
-    <div class="education-card">
-
-        <h3>Master of Computer Applications (MCA)</h3>
-
-        <h4>Pondicherry University</h4>
-
-        <p>2025 - 2027</p>
-
-    </div>
-    <div class="education-card">
-
-        <h3>Bachelor of science (BS)</h3>
-
-        <h4>Mahatma gandhi kashi vidyapith</h4>
-
-        <p>2022 - 2025</p>
-
-    </div>
-    <div class="education-card">
-        <h3>Higher Secondary (Class XII) And Secondary School (Class X)</h3>
-        <h4>S.N.B.P.I.C. Varanasi</h4>
-        <p>2017 - 2020</p>
-    </div>
-
-</section>
-
-
-
-
-<!-- ================= SKILLS ================= -->
-
-<section id="skills">
-
-<h2 class="heading">Skills</h2>
-
-<div class="skill-container">
-
-<div class="skill-card">
-
-<h3>Programming</h3>
-
-<ul>
-
-<li>Python</li>
-
-<li>C++</li>
-
-<li>SQL</li>
-
-<li>JavaScript</li>
-
-</ul>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Web Technologies</h3>
-
-<ul>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>Bootstrap</li>
-
-<li>Flask</li>
-
-<li>Django</li>
-
-<li>FastAPI</li>
-
-</ul>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Database</h3>
-
-<ul>
-
-<li>MySQL</li>
-
-<li>MongoDB</li>
-
-<li>SQLite</li>
-
-</ul>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Libraries</h3>
-
-<ul>
-
-<li>Pandas</li>
-
-<li>NumPy</li>
-
-<li>Matplotlib</li>
-
-</ul>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Tools</h3>
-
-<ul>
-
-<li>Git</li>
-
-<li>GitHub</li>
-
-<li>REST API</li>
-
-<li>VS Code</li>
-
-<li>Cisco Packet Tracer</li>
-
-<li>Microsoft Excel</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects">
-
-<h2 class="heading">Projects</h2>
-
-<div class="project-container">
-
-    <!-- Project 1 -->
-    <div class="project-card">
-
-        <h3>Personal Portfolio Website</h3>
-
-        <p>
-            A responsive and visually appealing portfolio website
-            designed to showcase my skills, education, projects,
-            and professional profile.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS
-        </p>
-
-        <a href="https://hardiko7.github.io/hardik-portfolio/"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-
-
-    <!-- Project 2 -->
-    <div class="project-card">
-
-        <h3>Shopping Website</h3>
-
-        <p>
-            A responsive shopping website designed with a user-friendly
-            interface for browsing products and exploring an online
-            shopping experience.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS • JavaScript
-        </p>
-
-        <a href="https://hardiko7.github.io/shopping-website/"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-
-
-    <!-- Project 3 -->
-    <div class="project-card">
-
-        <h3>Quiz Website</h3>
-
-        <p>
-            An interactive quiz website that allows users to answer
-            questions, navigate through quizzes, and view their
-            performance.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS • JavaScript
-        </p>
-
-        <a href="https://quiz-website.fwh.is/?i=1"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-
-
-    <!-- Project 4 -->
-    <div class="project-card">
-
-        <h3>Scientific Calculator</h3>
-
-        <p>
-            A web-based scientific calculator capable of performing
-            mathematical and scientific calculations through an
-            interactive user interface.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS • JavaScript
-        </p>
-
-        <a href="https://hardiko7.github.io/scientific-calculator/"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-
-
-    <!-- Project 5 -->
-    <div class="project-card">
-
-        <h3>Employee Detail Form</h3>
-
-        <p>
-            A web-based employee registration form designed to collect
-            and manage employee information through a structured
-            form interface.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS • PHP • MySQL
-        </p>
-
-        <a href="http://localhost/employee-form/index.html"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-
-
-    <!-- Project 6 -->
-    <div class="project-card">
-
-        <h3>CS Department Website</h3>
-
-        <p>
-            A department website designed to provide information
-            about the Computer Science department along with an
-            online registration interface.
-        </p>
-
-        <h4>Technologies</h4>
-
-        <p class="technologies">
-            HTML • CSS • JavaScript
-        </p>
-
-        <a href="http://127.0.0.1:3000/register.html"
-           target="_blank"
-           class="project-btn">
-            View Project
-        </a>
-
-    </div>
-</div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-
-<section id="contact">
-
-<h2 class="heading">Contact</h2>
-
-<a href="mailto:ghardik880@gmail.com">Email : ghardik880@gmail.com</a>
-<br>
-<a href="tel:+917398791470">Phone : +91 7398791470</a>
-
-<p>Location : Pondicherry University, Puducherry</p>
-
-</section>
-
-
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-<p>
-
-© 2026 Hardik Gupta | Portfolio Website
-
-</p>
-
-</footer>
-
+            <div class="hero-visual">
+                <div class="photo-frame">
+                    <img src="image/profile.jpeg" alt="Portrait of Hardik Gupta">
+                </div>
+                <div class="photo-note"><span>Based in</span><strong>Puducherry, India</strong></div>
+                <span class="decor decor-one" aria-hidden="true"></span>
+                <span class="decor decor-two" aria-hidden="true"></span>
+            </div>
+        </section>
+
+        <section id="about" class="section-wrap section-block">
+            <div class="section-intro">
+                <p class="eyebrow">A little introduction</p>
+                <h2 class="section-title">About <span>me</span></h2>
+            </div>
+            <div class="about-content">
+                <p class="about-lead">
+                    Curious by nature, practical by approach, and always learning.
+                </p>
+                <p>
+                    I am currently pursuing my Master of Computer Applications (MCA) at
+                    Pondicherry University (2025–2027). I enjoy solving real-world problems
+                    using Python and modern web technologies.
+                </p>
+                <p>
+                    My interests include Artificial Intelligence, Machine Learning, Data
+                    Structures &amp; Algorithms, Full Stack Development and Database Systems.
+                    I am continuously improving my programming skills and building projects
+                    that solve practical problems.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section-block section-tint">
+            <div class="section-wrap">
+                <div class="section-intro centered">
+                    <p class="eyebrow">Learning journey</p>
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">The academic path behind my work.</p>
+                </div>
+                <div class="education-list">
+                    <article class="education-item">
+                        <span class="education-year">2025 — 2027</span>
+                        <div>
+                            <h3>Master of Computer Applications (MCA)</h3>
+                            <p class="muted">Pondicherry University</p>
+                        </div>
+                        <span class="education-mark">01</span>
+                    </article>
+                    <article class="education-item">
+                        <span class="education-year">2022 — 2025</span>
+                        <div>
+                            <h3>Bachelor of Science</h3>
+                            <p class="muted">Mahatma Gandhi Kashi Vidyapith</p>
+                        </div>
+                        <span class="education-mark">02</span>
+                    </article>
+                    <article class="education-item">
+                        <span class="education-year">2017 — 2020</span>
+                        <div>
+                            <h3>Higher Secondary &amp; Secondary Education</h3>
+                            <p class="muted">S.N.B.P.I.C., Varanasi</p>
+                        </div>
+                        <span class="education-mark">03</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-wrap section-block">
+            <div class="section-intro">
+                <p class="eyebrow">What I work with</p>
+                <h2 class="section-title">Skills &amp; <span>tools</span></h2>
+                <p class="section-subtitle">Technologies I use while learning and building.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>Programming</h3>
+                    <ul><li>Python</li><li>C++</li><li>SQL</li><li>JavaScript</li></ul>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>Web technologies</h3>
+                    <ul><li>HTML &amp; CSS</li><li>Bootstrap</li><li>Flask</li><li>Django</li><li>FastAPI</li></ul>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>Databases</h3>
+                    <ul><li>MySQL</li><li>MongoDB</li><li>SQLite</li></ul>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Libraries</h3>
+                    <ul><li>Pandas</li><li>NumPy</li><li>Matplotlib</li></ul>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-number">05</span>
+                    <h3>Tools &amp; platforms</h3>
+                    <ul><li>Git &amp; GitHub</li><li>REST API</li><li>VS Code</li><li>Cisco Packet Tracer</li><li>Microsoft Excel</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section-block section-tint">
+            <div class="section-wrap">
+                <div class="projects-heading">
+                    <div>
+                        <p class="eyebrow">Selected work</p>
+                        <h2 class="section-title">Things I've <span>built</span></h2>
+                    </div>
+                    <p class="section-subtitle">A collection of academic and personal projects.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <span class="project-index">01 / WEB</span>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A responsive portfolio showcasing my education, technical skills, projects and professional profile.</p>
+                        <p class="tech-list">HTML · CSS</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/hardik-portfolio.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/hardik-portfolio/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">02 / WEB</span>
+                        <h3>Shopping Website</h3>
+                        <p>An interactive shopping website where users can browse products and explore a simple e-commerce experience.</p>
+                        <p class="tech-list">HTML · CSS · JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/shopping-website.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/shopping-website/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">03 / WEB</span>
+                        <h3>Quiz Website</h3>
+                        <p>An interactive quiz application where users can answer questions, test their knowledge and view their scores.</p>
+                        <p class="tech-list">HTML · CSS · JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/quiz-website.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/quiz-website/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">04 / WEB</span>
+                        <h3>Online Scientific Calculator</h3>
+                        <p>A web-based scientific calculator for basic arithmetic and advanced mathematical calculations.</p>
+                        <p class="tech-list">HTML · CSS · JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/scientific-calculator.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/scientific-calculator/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">05 / DATABASE</span>
+                        <h3>Employee Detail Form</h3>
+                        <p>An employee registration system that collects and stores employee details through a structured web form.</p>
+                        <p class="tech-list">HTML · CSS · PHP · MySQL</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/Employee-Form.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/Employee-Form/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">06 / WEB</span>
+                        <h3>CS Department Website</h3>
+                        <p>A department website providing academic information, department details and a student registration interface.</p>
+                        <p class="tech-list">HTML · CSS · JavaScript</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/cs-department-website.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/cs-department-website/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">07 / PYTHON</span>
+                        <h3>Company Management System</h3>
+                        <p>A company management application designed to organize business information and manage company-related records.</p>
+                        <p class="tech-list">Python · SQL</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/company_management.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/company_management/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">08 / PYTHON</span>
+                        <h3>Contact Management Application</h3>
+                        <p>A contact management application to organize, store, update and manage contact information.</p>
+                        <p class="tech-list">Python · SQL</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/contact-management.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/contact-management/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">09 / API</span>
+                        <h3>Weather Prediction App</h3>
+                        <p>A weather application that fetches and displays weather information using an external weather API.</p>
+                        <p class="tech-list">HTML · CSS · JavaScript · AJAX · JSON</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/weather-ajax-project.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/weather-ajax-project/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-index">10 / API</span>
+                        <h3>Book API</h3>
+                        <p>A book management API designed to handle book-related information and demonstrate API-based data operations.</p>
+                        <p class="tech-list">Python · Flask · REST API · JSON</p>
+                        <div class="project-links">
+                            <a href="https://github.com/HardikO7/Book-API.git" target="_blank" rel="noopener">Source code ↗</a>
+                            <a href="https://hardiko7.github.io/Book-API/" target="_blank" rel="noopener">Live demo ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-wrap contact-section">
+            <div class="contact-panel">
+                <p class="eyebrow">Have a project or opportunity?</p>
+                <h2>Let's make something<br><span>useful together.</span></h2>
+                <p class="contact-copy">I'm always open to meaningful conversations, collaborations and opportunities to learn.</p>
+                <div class="contact-actions">
+                    <a class="button button-dark" href="mailto:ghardik880@gmail.com">Get in touch ↗</a>
+                    <a class="button button-light" href="tel:+917398791470">Call me</a>
+                </div>
+                <div class="contact-details">
+                    <span>ghardik880@gmail.com</span>
+                    <span>Puducherry, India</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Hardik Gupta</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
 </body>
 </html>
